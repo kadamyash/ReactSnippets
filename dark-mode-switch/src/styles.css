@@ -1,0 +1,91 @@
+/* Write two classes/css code wherever required for particular elements, for the rest just rely on state and ternary operator in the javascript/typescript code..... */
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background: #f1f1f1;
+  color: #0f0f0f;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.App button {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  font-size: 1em;
+  font-weight: 700;
+  box-shadow: 5px 5px rgba(150, 150, 150, 0.15);
+  width: 15em;
+  height: 2.5em;
+  transition: all 150ms ease;
+}
+
+.App button:hover,
+.App button:active {
+  background-color: #cecece;
+  box-shadow: 1px 1px rgba(150, 150, 150, 0.15);
+}
+
+/* alternate */
+
+.App-dark {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background: #0f0f0f;
+  color: #f5f5f5;
+  height: 100vh;
+  margin: 0;
+  font-weight: 500;
+}
+
+.App-dark button {
+  cursor: pointer;
+  background-color: #414141;
+  color: white;
+  border: none;
+  font-size: 1em;
+  font-weight: 700;
+  box-shadow: 5px 5px rgba(50, 50, 50, 0.15);
+  width: 15em;
+  height: 2.5em;
+  transition: all 150ms ease;
+}
+
+.App-dark button:hover,
+.App-dark button:active .App-dark button:focus {
+  background-color: #181818;
+  box-shadow: 1px 1px rgba(150, 150, 150, 0.15);
+}
+
+#anchor {
+  color: #6262ff;
+}
+
+/* SPECIAL  */
+
+.special {
+  background-color: #e49b13 !important;
+  color: rgb(250, 250, 250);
+  box-shadow: 5px 5px rgba(50, 50, 50, 0.15);
+  transition: all 150ms ease;
+}
+
+.special:hover {
+  background-color: #c48613;
+  box-shadow: 1px 1px rgba(192, 154, 72, 0.15);
+}
